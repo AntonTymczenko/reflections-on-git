@@ -4,10 +4,13 @@ It creates a new repository, no files are staged or commited.
 
 
 
-What happens when you initialize a repository? Why do you need to do it?
-
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+Staging area is a part of current changes. Staged files will go to the next commit. It makes every commit flexible. We don't need to commit every changed file. Only those, which are logically connected with a feature we are committing.
+
+
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
