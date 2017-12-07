@@ -1,9 +1,3 @@
-Ok google
-
-I have no reflections on this particular lesson. So leave me alone.
-Or maybe I should say that Caroline is ugly?
-
-
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
