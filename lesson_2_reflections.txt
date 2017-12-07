@@ -1,13 +1,13 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-It creates a new repository, no files are staged or commited.
+  It creates a new repository, no files are staged or commited.
 
 
 
 How is the staging area different from the working directory and 
 the repository? What value do you think it offers?
 
-It's like a buffer between my actual changes and a commit. I can use it 
+  It's like a buffer between my actual changes and a commit. I can use it 
 as place where I choose which particular files I should add to a commit.
 It makes every commit flexible. We don't need to commit every changed file.
 Only those, which are logically connected with a feature we are committing.
@@ -17,7 +17,7 @@ Only those, which are logically connected with a feature we are committing.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-Adding files manually to staging area could help me to make commits logically
+  Adding files manually to staging area could help me to make commits logically
 isolated. Such commands as 'git diff' and 'git diff --staged' could help me 
 to track actual changes in files before committing.
 
@@ -26,13 +26,13 @@ to track actual changes in files before committing.
 What are some situations when branches would be helpful in keeping your 
 history organized? How would branches help?
 
-Adding a new feature, another language or even another mode (as in a game). 
+  Adding a new feature, another language or even another mode (as in a game). 
 
 
 
 How do the diagrams help you visualize the branch structure?
 
-I can see commits of a specific branch(es) and after which commit of a master
+  I can see commits of a specific branch(es) and after which commit of a master
 branch it was created.
 
 
@@ -40,7 +40,7 @@ branch it was created.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-The result is one of the selected branches which now contains commits of all
+  The result is one of the selected branches which now contains commits of all
 mentioned branches. Commits are ordered in chronological order. And I can see
 input of each of them comparing to it's parent commit by a command 
 `git show <commit_name>`
@@ -50,5 +50,5 @@ input of each of them comparing to it's parent commit by a command
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
-Automatic merge is quick, but it sometimes doesn't know what to do
+  Automatic merge is quick, but it sometimes doesn't know what to do
 with parts of code which are conflicting with each other
