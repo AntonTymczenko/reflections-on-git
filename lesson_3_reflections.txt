@@ -6,7 +6,10 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    To see changes made by another participants only when I want to see it.
+    For instance, before merge. This way I won't be confused by some files
+    that were created while I was making my own commits.
+
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
